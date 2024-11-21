@@ -25,3 +25,13 @@ C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\runtim
 C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\obj\Debug\net8.0-windows\OOAD_Form.csproj.AssemblyReference.cache
 C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\obj\Debug\net8.0-windows\OOAD_Form.csproj.Up2Date
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Chetra\Desktop\RUPP_Y4S1\OOAD\OOAD_Form\obj\Debug\net8.0-windows\OOAD_Form.sourcelink.json

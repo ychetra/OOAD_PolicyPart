@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOAD_Form")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df56df90f2659691dcb43d4d0c6d8342e99b9364")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOAD_Form")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOAD_Form")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
