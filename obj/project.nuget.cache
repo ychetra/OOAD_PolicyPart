@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "TJM84+BEFJ+M/5O9Dn5C8LhsXsiXGmVv7yf5gkKJkXNe5ajV1OFbmLTWWK7AHsbpwMz9gRAVAzp/w53P+xn9Bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\OOAD_Form.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chetra\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chetra\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chetra\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chetra\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chetra\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
