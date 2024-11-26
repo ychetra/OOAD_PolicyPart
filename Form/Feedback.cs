@@ -30,14 +30,6 @@ namespace OOAD_Form
             listView1.View = View.Details;
             listView1.FullRowSelect = true;
             listView1.GridLines = true;
-
-            // Add columns
-            listView1.Columns.Add("ID", 50);
-            listView1.Columns.Add("Date", 100);
-            listView1.Columns.Add("Comments", 150);
-            listView1.Columns.Add("Rating", 50);
-            listView1.Columns.Add("Resident ID", 80);
-            listView1.Columns.Add("Resident Name", 120);
         }
 
         private void LoadFeedbackData()

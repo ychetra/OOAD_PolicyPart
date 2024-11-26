@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|c:\\users\\chetra\\desktop\\rupp_y4s1\\ooad\\ooad_form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|c:\\users\\chetra\\desktop\\rupp_y4s1\\ooad\\ooad_form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\form\\leaseagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:form\\leaseagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|c:\\users\\chetra\\desktop\\rupp_y4s1\\ooad\\ooad_form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\form\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:form\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\helper\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\form\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:form\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\form\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:form\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\form\\leaseagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE243D50-D935-47BD-B91A-AC33B913F94E}|OOAD_Form.csproj|solutionrelative:form\\leaseagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Utility.cs",
+              "RelativeDocumentMoniker": "Form\\Utility.cs",
+              "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Utility.cs",
+              "RelativeToolTip": "Form\\Utility.cs",
+              "ViewState": "AQIAAB0BAAAAAAAAAAAAACUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:09:26.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-21T15:53:20.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OOAD_Form",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\OOAD_Form.csproj",
               "RelativeDocumentMoniker": "OOAD_Form.csproj",
@@ -71,54 +83,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DbHelper.cs",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Helper\\DbHelper.cs",
               "RelativeDocumentMoniker": "Helper\\DbHelper.cs",
               "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Helper\\DbHelper.cs",
               "RelativeToolTip": "Helper\\DbHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T14:21:17.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAABAAAA",
+              "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T14:17:32.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Utility.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Utility.cs",
-              "RelativeDocumentMoniker": "Form\\Utility.cs",
-              "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Utility.cs [Design]",
-              "RelativeToolTip": "Form\\Utility.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:15:04.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "LeaseAgreement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\LeaseAgreement.cs",
               "RelativeDocumentMoniker": "Form\\LeaseAgreement.cs",
               "ToolTip": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\LeaseAgreement.cs [Design]",
               "RelativeToolTip": "Form\\LeaseAgreement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:58:09.565Z"
+              "WhenOpened": "2024-11-21T13:58:09.565Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Feedback.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Feedback.cs",
               "RelativeDocumentMoniker": "Form\\Feedback.cs",
@@ -129,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Policy.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Chetra\\Desktop\\RUPP_Y4S1\\OOAD\\OOAD_Form\\Form\\Policy.cs",
               "RelativeDocumentMoniker": "Form\\Policy.cs",

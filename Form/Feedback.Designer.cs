@@ -22,187 +22,229 @@ namespace OOAD_Form
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            label6 = new Label();
             listView1 = new ListView();
             txtID = new TextBox();
             txtComments = new TextBox();
-            txtResidentID = new TextBox();
             numRating = new NumericUpDown();
+            txtResidentID = new TextBox();
+            txtResidentName = new TextBox();
             dateFeedback = new DateTimePicker();
             btnInsert = new Button();
             btnUpdate = new Button();
             btnDelete = new Button();
-            txtResidentName = new TextBox();
-            label6 = new Label();
+            titleLabel = new Label();
+            inputGroup = new GroupBox();
+            buttonPanel = new Panel();
             ((System.ComponentModel.ISupportInitialize)numRating).BeginInit();
+            inputGroup.SuspendLayout();
+            buttonPanel.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
+
+            // Title Label
+            titleLabel.BackColor = Color.FromArgb(51, 122, 183);
+            titleLabel.Dock = DockStyle.Top;
+            titleLabel.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            titleLabel.ForeColor = Color.White;
+            titleLabel.Location = new Point(10, 10);
+            titleLabel.Name = "titleLabel";
+            titleLabel.Size = new Size(780, 40);
+            titleLabel.TabIndex = 0;
+            titleLabel.Text = "Feedback Management";
+            titleLabel.TextAlign = ContentAlignment.MiddleCenter;
+
+            // Labels
             label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 38);
+            label1.Font = new Font("Segoe UI", 10F);
+            label1.Location = new Point(20, 40);
             label1.Name = "label1";
-            label1.Size = new Size(112, 22);
+            label1.Size = new Size(100, 23);
             label1.TabIndex = 0;
-            label1.Text = "FeedbackID:";
-            // 
-            // label2
-            // 
+            label1.Text = "Feedback ID:";
+
             label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 96);
+            label2.Font = new Font("Segoe UI", 10F);
+            label2.Location = new Point(20, 80);
             label2.Name = "label2";
-            label2.Size = new Size(98, 22);
+            label2.Size = new Size(66, 23);
             label2.TabIndex = 1;
-            label2.Text = "Comments:";
-            // 
-            // label3
-            // 
+            label2.Text = "Rating:";
+
             label3.AutoSize = true;
-            label3.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(12, 159);
+            label3.Font = new Font("Segoe UI", 10F);
+            label3.Location = new Point(20, 120);
             label3.Name = "label3";
-            label3.Size = new Size(67, 22);
+            label3.Size = new Size(95, 23);
             label3.TabIndex = 2;
-            label3.Text = "Rating:";
-            // 
-            // label4
-            // 
+            label3.Text = "Comments:";
+
             label4.AutoSize = true;
-            label4.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(12, 218);
+            label4.Font = new Font("Segoe UI", 10F);
+            label4.Location = new Point(20, 200);
             label4.Name = "label4";
-            label4.Size = new Size(134, 22);
+            label4.Size = new Size(49, 23);
             label4.TabIndex = 3;
-            label4.Text = "Feedback Date:";
-            // 
-            // label5
-            // 
+            label4.Text = "Date:";
+
             label5.AutoSize = true;
-            label5.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(12, 269);
+            label5.Font = new Font("Segoe UI", 10F);
+            label5.Location = new Point(20, 240);
             label5.Name = "label5";
-            label5.Size = new Size(110, 22);
+            label5.Size = new Size(96, 23);
             label5.TabIndex = 4;
             label5.Text = "Resident ID:";
-            // 
-            // listView1
-            // 
-            listView1.Location = new Point(400, 100);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(388, 304);
-            listView1.TabIndex = 7;
-            listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // txtID
-            // 
-            txtID.Location = new Point(149, 36);
+
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 10F);
+            label6.Location = new Point(20, 280);
+            label6.Name = "label6";
+            label6.Size = new Size(120, 23);
+            label6.TabIndex = 5;
+            label6.Text = "Resident Name:";
+
+            // Input Controls
+            txtID.BackColor = Color.FromArgb(240, 240, 240);
+            txtID.Location = new Point(140, 38);
             txtID.Name = "txtID";
-            txtID.Size = new Size(183, 27);
-            txtID.TabIndex = 8;
-            // 
-            // txtComments
-            // 
-            txtComments.Location = new Point(149, 94);
+            txtID.ReadOnly = true;
+            txtID.Size = new Size(180, 30);
+            txtID.TabIndex = 6;
+
+            numRating.Location = new Point(140, 78);
+            numRating.Name = "numRating";
+            numRating.Size = new Size(180, 30);
+            numRating.Minimum = 1;
+            numRating.Maximum = 5;
+            numRating.Value = 1;
+            numRating.TabIndex = 7;
+
+            txtComments.Location = new Point(140, 118);
             txtComments.Multiline = true;
             txtComments.Name = "txtComments";
-            txtComments.Size = new Size(183, 27);
-            txtComments.TabIndex = 9;
-            // 
-            // txtResidentID
-            // 
-            txtResidentID.Location = new Point(149, 267);
-            txtResidentID.Name = "txtResidentID";
-            txtResidentID.Size = new Size(183, 27);
-            txtResidentID.TabIndex = 12;
-            // 
-            // numRating
-            // 
-            numRating.Location = new Point(149, 157);
-            numRating.Maximum = new decimal(new int[] { 5, 0, 0, 0 });
-            numRating.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numRating.Name = "numRating";
-            numRating.Size = new Size(183, 27);
-            numRating.TabIndex = 10;
-            numRating.Value = new decimal(new int[] { 1, 0, 0, 0 });
-            // 
-            // dateFeedback
-            // 
-            dateFeedback.Location = new Point(149, 214);
+            txtComments.Size = new Size(180, 70);
+            txtComments.TabIndex = 8;
+
+            dateFeedback.Format = DateTimePickerFormat.Short;
+            dateFeedback.Location = new Point(140, 198);
             dateFeedback.Name = "dateFeedback";
-            dateFeedback.Size = new Size(250, 27);
-            dateFeedback.TabIndex = 11;
-            // 
-            // btnInsert
-            // 
-            btnInsert.Location = new Point(400, 40);
-            btnInsert.Name = "btnInsert";
-            btnInsert.Size = new Size(94, 29);
-            btnInsert.TabIndex = 14;
-            btnInsert.Text = "Insert";
-            btnInsert.UseVisualStyleBackColor = true;
-            // 
-            // btnUpdate
-            // 
-            btnUpdate.Location = new Point(553, 40);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(94, 29);
-            btnUpdate.TabIndex = 15;
-            btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            btnDelete.Location = new Point(694, 40);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(94, 29);
-            btnDelete.TabIndex = 16;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // txtResidentName
-            // 
-            txtResidentName.Location = new Point(149, 320);
+            dateFeedback.Size = new Size(180, 30);
+            dateFeedback.TabIndex = 9;
+
+            txtResidentID.Location = new Point(140, 238);
+            txtResidentID.Name = "txtResidentID";
+            txtResidentID.Size = new Size(180, 30);
+            txtResidentID.TabIndex = 10;
+
+            txtResidentName.BackColor = Color.FromArgb(240, 240, 240);
+            txtResidentName.Location = new Point(140, 278);
             txtResidentName.Name = "txtResidentName";
-            txtResidentName.Size = new Size(183, 27);
-            txtResidentName.TabIndex = 13;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(12, 322);
-            label6.Name = "label6";
-            label6.Size = new Size(136, 22);
-            label6.TabIndex = 6;
-            label6.Text = "Resident Name:";
-            // 
-            // Feedback
-            // 
+            txtResidentName.ReadOnly = true;
+            txtResidentName.Size = new Size(180, 30);
+            txtResidentName.TabIndex = 11;
+
+            // Buttons
+            btnInsert.BackColor = Color.FromArgb(92, 184, 92);
+            btnInsert.FlatStyle = FlatStyle.Flat;
+            btnInsert.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnInsert.ForeColor = Color.White;
+            btnInsert.Location = new Point(0, 0);
+            btnInsert.Name = "btnInsert";
+            btnInsert.Size = new Size(95, 35);
+            btnInsert.TabIndex = 0;
+            btnInsert.Text = "Insert";
+            btnInsert.UseVisualStyleBackColor = false;
+
+            btnUpdate.BackColor = Color.FromArgb(240, 173, 78);
+            btnUpdate.FlatStyle = FlatStyle.Flat;
+            btnUpdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnUpdate.ForeColor = Color.White;
+            btnUpdate.Location = new Point(105, 0);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(95, 35);
+            btnUpdate.TabIndex = 1;
+            btnUpdate.Text = "Update";
+            btnUpdate.UseVisualStyleBackColor = false;
+
+            btnDelete.BackColor = Color.FromArgb(217, 83, 79);
+            btnDelete.FlatStyle = FlatStyle.Flat;
+            btnDelete.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnDelete.ForeColor = Color.White;
+            btnDelete.Location = new Point(210, 0);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(95, 35);
+            btnDelete.TabIndex = 2;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = false;
+
+            // Button Panel
+            buttonPanel.Controls.Add(btnInsert);
+            buttonPanel.Controls.Add(btnUpdate);
+            buttonPanel.Controls.Add(btnDelete);
+            buttonPanel.Location = new Point(20, 320);
+            buttonPanel.Name = "buttonPanel";
+            buttonPanel.Size = new Size(310, 50);
+            buttonPanel.TabIndex = 12;
+
+            // ListView
+            listView1.BackColor = Color.White;
+            listView1.BorderStyle = BorderStyle.FixedSingle;
+            listView1.FullRowSelect = true;
+            listView1.GridLines = true;
+            listView1.Location = new Point(390, 60);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(380, 400);
+            listView1.TabIndex = 2;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            listView1.Columns.Clear();
+            listView1.Columns.Add("ID", 50);
+            listView1.Columns.Add("Rating", 60);
+            listView1.Columns.Add("Comments", 150);
+            listView1.Columns.Add("Date", 100);
+            listView1.Columns.Add("Resident ID", 80);
+
+            // Input Group
+            inputGroup.BackColor = Color.White;
+            inputGroup.Controls.Add(label1);
+            inputGroup.Controls.Add(label2);
+            inputGroup.Controls.Add(label3);
+            inputGroup.Controls.Add(label4);
+            inputGroup.Controls.Add(label5);
+            inputGroup.Controls.Add(label6);
+            inputGroup.Controls.Add(txtID);
+            inputGroup.Controls.Add(numRating);
+            inputGroup.Controls.Add(txtComments);
+            inputGroup.Controls.Add(dateFeedback);
+            inputGroup.Controls.Add(txtResidentID);
+            inputGroup.Controls.Add(txtResidentName);
+            inputGroup.Controls.Add(buttonPanel);
+            inputGroup.Font = new Font("Segoe UI", 10F);
+            inputGroup.Location = new Point(20, 60);
+            inputGroup.Name = "inputGroup";
+            inputGroup.Size = new Size(350, 400);
+            inputGroup.TabIndex = 1;
+            inputGroup.TabStop = false;
+            inputGroup.Text = "Feedback Details";
+
+            // Form
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(btnDelete);
-            Controls.Add(btnUpdate);
-            Controls.Add(btnInsert);
-            Controls.Add(txtResidentID);
-            Controls.Add(dateFeedback);
-            Controls.Add(numRating);
-            Controls.Add(txtComments);
-            Controls.Add(txtID);
+            BackColor = Color.FromArgb(240, 240, 240);
+            ClientSize = new Size(800, 480);
+            Controls.Add(titleLabel);
+            Controls.Add(inputGroup);
             Controls.Add(listView1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(txtResidentName);
-            Controls.Add(label6);
+            Font = new Font("Segoe UI", 9F);
+            MinimumSize = new Size(800, 480);
             Name = "Feedback";
+            Padding = new Padding(10);
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Feedback Management";
             ((System.ComponentModel.ISupportInitialize)numRating).EndInit();
+            inputGroup.ResumeLayout(false);
+            inputGroup.PerformLayout();
+            buttonPanel.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -212,16 +254,19 @@ namespace OOAD_Form
         private Label label3;
         private Label label4;
         private Label label5;
+        private Label label6;
         private ListView listView1;
         private TextBox txtID;
         private TextBox txtComments;
         private NumericUpDown numRating;
         private DateTimePicker dateFeedback;
         private TextBox txtResidentID;
+        private TextBox txtResidentName;
         private Button btnInsert;
         private Button btnUpdate;
         private Button btnDelete;
-        private Label label6;
-        private TextBox txtResidentName;
+        private Label titleLabel;
+        private GroupBox inputGroup;
+        private Panel buttonPanel;
     }
 } 

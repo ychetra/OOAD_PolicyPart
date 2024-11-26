@@ -30,15 +30,6 @@ namespace OOAD_Form
             listView1.View = View.Details;
             listView1.FullRowSelect = true;
             listView1.GridLines = true;
-
-            // Add columns
-            listView1.Columns.Add("ID", 50);
-            listView1.Columns.Add("Start Date", 100);
-            listView1.Columns.Add("End Date", 100);
-            listView1.Columns.Add("Monthly Rent", 100);
-            listView1.Columns.Add("Terms", 150);
-            listView1.Columns.Add("Resident ID", 80);
-            listView1.Columns.Add("Resident Name", 120);
         }
 
         private void LoadLeaseData()
@@ -48,10 +39,13 @@ namespace OOAD_Form
                 listView1.Items.Clear();
                 using (SqlConnection conn = DbHelper.GetConnection())
                 {
-                    using (SqlCommand cmd = new SqlCommand("sp_ReadLeaseAgreement", conn))
+                    conn.Open();
+                    // Use a JOIN to get both lease and resident data in one query
+                    using (SqlCommand cmd = new SqlCommand(@"
+                        SELECT l.*, r.ResidentName 
+                        FROM tblLeaseAgreement l 
+                        LEFT JOIN tblResident r ON l.ResidentID = r.ResidentID", conn))
                     {
-                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                        conn.Open();
                         using (SqlDataReader reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
@@ -62,15 +56,7 @@ namespace OOAD_Form
                                 item.SubItems.Add(reader["MonthlyRent"].ToString());
                                 item.SubItems.Add(reader["TermsAndConditions"].ToString());
                                 item.SubItems.Add(reader["ResidentID"].ToString());
-
-                                using (SqlCommand cmd2 = new SqlCommand("sp_GetResidentName", conn))
-                                {
-                                    cmd2.CommandType = System.Data.CommandType.StoredProcedure;
-                                    cmd2.Parameters.AddWithValue("@ResidentID", reader["ResidentID"]);
-                                    var residentName = cmd2.ExecuteScalar()?.ToString() ?? "";
-                                    item.SubItems.Add(residentName);
-                                }
-
+                                item.SubItems.Add(reader["ResidentName"]?.ToString() ?? "");
                                 listView1.Items.Add(item);
                             }
                         }

@@ -31,16 +31,13 @@ namespace OOAD_Form
 
         private void SetupListView()
         {
+            // Only set the view properties
             listView1.View = View.Details;
             listView1.FullRowSelect = true;
             listView1.GridLines = true;
 
-            // Add columns
-            listView1.Columns.Add("ID", 50);
-            listView1.Columns.Add("Type", 100);
-            listView1.Columns.Add("Cost", 100);
-            listView1.Columns.Add("Usage Date", 100);
-            listView1.Columns.Add("Room ID", 80);
+            // Remove the column setup since it's already in Designer.cs
+            // listView1.Columns.Add(...) lines should be removed from here
         }
 
         private void LoadUtilityData()
@@ -50,10 +47,9 @@ namespace OOAD_Form
                 listView1.Items.Clear();
                 using (SqlConnection conn = DbHelper.GetConnection())
                 {
-                    using (SqlCommand cmd = new SqlCommand("sp_ReadUtility", conn))
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("SELECT * FROM tblUtility", conn))
                     {
-                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                        conn.Open();
                         using (SqlDataReader reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
@@ -296,8 +292,8 @@ namespace OOAD_Form
         }
 
         private void ClearForm()
-        {
-            txtID.Clear();
+            {
+                txtID.Clear();
             cboUtilityType.SelectedIndex = -1;
             txtCost.Clear();
             dateUsage.Value = DateTime.Now;
